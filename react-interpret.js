@@ -4,7 +4,7 @@
 text: string (text to be interpreted)
 interpreters: object (key: string, value: string, function, or component)
 */
-function interpret(text, interpreters) {
+export default function interpret(text, interpreters) {
     const regex = /\/?(.*?)/g;
     let parts = text.split(regex);
     let inTag = false;
@@ -22,5 +22,3 @@ function interpret(text, interpreters) {
 
     return parts;
 }
-
-export { interpret };

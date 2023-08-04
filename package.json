@@ -1,0 +1,14 @@
+{
+  "name": "react-interpret",
+  "version": "0.0.2",
+  "description": "Safely replace components with other react components",
+  "main": "react-interpret.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Arsen Shkrumelyak",
+  "license": "MIT"
+}

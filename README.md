@@ -9,8 +9,8 @@ import React from 'react';
 import { interpret } from '@/components/react-interpret';
 
 const interpreters = {
-  '[b]': <b>,
-  '[/b]': </b>,
+  "[b]": "<b>",
+  "[/b]": "</b>",
   // Add more text-to-JSX mappings here as needed.
 };
 
